@@ -29,8 +29,7 @@ public class EnterNames {
                     writer.write(input + "\n");
                     writer.flush();
                 } catch (IOException ex) {
-
-                    System.out.println(ex.getMessage());
+                    ex.printStackTrace();
                 }
             }
         }
